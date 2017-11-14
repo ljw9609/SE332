@@ -1,0 +1,3850 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pnml>
+    <net>
+        <token id="Default" red="0" green="0" blue="0"/>
+        <place id="科一挂科计数">
+            <graphics>
+                <position x="238.0" y="117.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="未通过">
+            <graphics>
+                <position x="71.0" y="1466.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="未注册学员">
+            <graphics>
+                <position x="60.0" y="60.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,40</value>
+            </initialMarking>
+        </place>
+        <place id="等待科目三训练中5">
+            <graphics>
+                <position x="198.0" y="1237.0"/>
+            </graphics>
+            <name>
+                <value>P4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="领取驾照">
+            <graphics>
+                <position x="313.0" y="679.0"/>
+            </graphics>
+            <name>
+                <value>P7</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="等待科目三训练">
+            <graphics>
+                <position x="244.0" y="553.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="倒桩训练结束">
+            <graphics>
+                <position x="479.0" y="240.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="日考中">
+            <graphics>
+                <position x="903.0" y="730.0"/>
+            </graphics>
+            <name>
+                <value>P3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科三挂科计数4">
+            <graphics>
+                <position x="564.0" y="1301.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科三挂科计数3">
+            <graphics>
+                <position x="559.0" y="1136.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科三挂科计数2">
+            <graphics>
+                <position x="523.0" y="968.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科三挂科计数1">
+            <graphics>
+                <position x="521.0" y="788.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="倒桩训练中">
+            <graphics>
+                <position x="276.0" y="240.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目二考核结束">
+            <graphics>
+                <position x="520.0" y="493.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="无监考考官">
+            <graphics>
+                <position x="1074.0" y="583.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,3</value>
+            </initialMarking>
+        </place>
+        <place id="科目二训练结束">
+            <graphics>
+                <position x="455.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="空闲教练">
+            <graphics>
+                <position x="13.0" y="594.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,6</value>
+            </initialMarking>
+        </place>
+        <place id="科目二训练中">
+            <graphics>
+                <position x="256.0" y="425.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="等待科目二考核">
+            <graphics>
+                <position x="626.0" y="408.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三考核中4">
+            <graphics>
+                <position x="728.0" y="1159.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三考核中5">
+            <graphics>
+                <position x="711.0" y="1302.0"/>
+            </graphics>
+            <name>
+                <value>P2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练中3">
+            <graphics>
+                <position x="253.0" y="995.0"/>
+            </graphics>
+            <name>
+                <value>P3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练中4">
+            <graphics>
+                <position x="252.0" y="1167.0"/>
+            </graphics>
+            <name>
+                <value>P2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练中2">
+            <graphics>
+                <position x="253.0" y="838.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三考核中2">
+            <graphics>
+                <position x="744.0" y="802.0"/>
+            </graphics>
+            <name>
+                <value>P3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三考核中3">
+            <graphics>
+                <position x="722.0" y="978.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="6.0" y="40.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目一学习中">
+            <graphics>
+                <position x="445.0" y="65.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="等待夜考">
+            <graphics>
+                <position x="740.0" y="560.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练结束 ">
+            <graphics>
+                <position x="497.0" y="603.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="等待科目三训练4">
+            <graphics>
+                <position x="233.0" y="1095.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="等待科目三训练2">
+            <graphics>
+                <position x="238.0" y="745.0"/>
+            </graphics>
+            <name>
+                <value>P6</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目一考核结束">
+            <graphics>
+                <position x="498.0" y="145.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练中">
+            <graphics>
+                <position x="280.0" y="596.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="等待科目三训练3">
+            <graphics>
+                <position x="219.0" y="930.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="抽签结束">
+            <graphics>
+                <position x="600.0" y="600.0"/>
+            </graphics>
+            <name>
+                <value>P4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="倒桩挂科计数">
+            <graphics>
+                <position x="486.0" y="285.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三考核结束">
+            <graphics>
+                <position x="575.0" y="721.0"/>
+            </graphics>
+            <name>
+                <value>P5</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三考核结束2">
+            <graphics>
+                <position x="602.0" y="904.0"/>
+            </graphics>
+            <name>
+                <value>P4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="多次未通过，强制退学">
+            <graphics>
+                <position x="235.0" y="1437.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三考核结束4">
+            <graphics>
+                <position x="624.0" y="1242.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三考核结束3">
+            <graphics>
+                <position x="612.0" y="1079.0"/>
+            </graphics>
+            <name>
+                <value>P4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="等待科目二训练">
+            <graphics>
+                <position x="193.0" y="316.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目一学习结束">
+            <graphics>
+                <position x="653.0" y="68.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="等待倒桩训练">
+            <graphics>
+                <position x="190.0" y="170.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科二挂科计数">
+            <graphics>
+                <position x="211.0" y="474.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="倒桩考核结束">
+            <graphics>
+                <position x="463.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三考核结束5">
+            <graphics>
+                <position x="613.0" y="1434.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练5">
+            <graphics>
+                <position x="231.0" y="1336.0"/>
+            </graphics>
+            <name>
+                <value>P4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="结束">
+            <graphics>
+                <position x="3.0" y="1080.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="等待日考">
+            <graphics>
+                <position x="735.0" y="619.0"/>
+            </graphics>
+            <name>
+                <value>P6</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="注册学员">
+            <graphics>
+                <position x="258.0" y="63.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目二考核中">
+            <graphics>
+                <position x="671.0" y="445.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练结束5">
+            <graphics>
+                <position x="458.0" y="1362.0"/>
+            </graphics>
+            <name>
+                <value>P3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练结束4">
+            <graphics>
+                <position x="479.0" y="1183.0"/>
+            </graphics>
+            <name>
+                <value>P3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练结束3">
+            <graphics>
+                <position x="483.0" y="1007.0"/>
+            </graphics>
+            <name>
+                <value>P2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="科目三训练结束2">
+            <graphics>
+                <position x="489.0" y="833.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="倒桩考核中">
+            <graphics>
+                <position x="652.0" y="296.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="夜考中">
+            <graphics>
+                <position x="944.0" y="668.0"/>
+            </graphics>
+            <name>
+                <value>P2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="通过">
+            <graphics>
+                <position x="86.0" y="674.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <transition id="科目一学习">
+            <graphics>
+                <position x="360.0" y="63.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目二训练">
+            <graphics>
+                <position x="149.0" y="428.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始科目三训练4">
+            <graphics>
+                <position x="127.0" y="1120.0"/>
+            </graphics>
+            <name>
+                <value>T4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始科目三训练3">
+            <graphics>
+                <position x="124.0" y="988.0"/>
+            </graphics>
+            <name>
+                <value>T3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="结束倒桩考核">
+            <graphics>
+                <position x="591.0" y="343.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始科目三训练5">
+            <graphics>
+                <position x="117.0" y="1304.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始倒桩考核">
+            <graphics>
+                <position x="619.0" y="241.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="结束科目三考核5">
+            <graphics>
+                <position x="769.0" y="1366.0"/>
+            </graphics>
+            <name>
+                <value>T2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目一考核未通过">
+            <graphics>
+                <position x="360.0" y="120.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="结束日考">
+            <graphics>
+                <position x="753.0" y="726.0"/>
+            </graphics>
+            <name>
+                <value>T3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目二考核通过">
+            <graphics>
+                <position x="405.0" y="500.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目一授课结束">
+            <graphics>
+                <position x="566.0" y="69.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-13.0" y="31.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="选择考核项目">
+            <graphics>
+                <position x="545.0" y="410.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三授课结束">
+            <graphics>
+                <position x="412.0" y="605.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始科目二考核">
+            <graphics>
+                <position x="728.0" y="384.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三训练">
+            <graphics>
+                <position x="161.0" y="614.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目一考核通过">
+            <graphics>
+                <position x="361.0" y="172.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始日考">
+            <graphics>
+                <position x="895.0" y="616.0"/>
+            </graphics>
+            <name>
+                <value>T4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三授课结束3">
+            <graphics>
+                <position x="357.0" y="1007.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="报名注册收费">
+            <graphics>
+                <position x="169.0" y="62.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三授课结束2">
+            <graphics>
+                <position x="381.0" y="824.0"/>
+            </graphics>
+            <name>
+                <value>T7</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三授课结束5">
+            <graphics>
+                <position x="330.0" y="1344.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三授课结束4">
+            <graphics>
+                <position x="345.0" y="1177.0"/>
+            </graphics>
+            <name>
+                <value>T2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三考核通过">
+            <graphics>
+                <position x="420.0" y="681.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="结束科目二考核">
+            <graphics>
+                <position x="692.0" y="493.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三考核未通过">
+            <graphics>
+                <position x="424.0" y="748.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三考核未通过3">
+            <graphics>
+                <position x="465.0" y="1124.0"/>
+            </graphics>
+            <name>
+                <value>T6</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目一考核">
+            <graphics>
+                <position x="663.0" y="148.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三考核未通过2">
+            <graphics>
+                <position x="445.0" y="941.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="抽中日考">
+            <graphics>
+                <position x="675.0" y="624.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三考核未通过4">
+            <graphics>
+                <position x="448.0" y="1289.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三训练2">
+            <graphics>
+                <position x="142.0" y="842.0"/>
+            </graphics>
+            <name>
+                <value>T9</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="领取学习证明和部分学费">
+            <graphics>
+                <position x="94.0" y="1399.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="倒桩考核通过">
+            <graphics>
+                <position x="361.0" y="353.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="结束驾校学习">
+            <graphics>
+                <position x="181.0" y="688.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="倒桩授课结束">
+            <graphics>
+                <position x="381.0" y="241.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="抽中夜考">
+            <graphics>
+                <position x="681.0" y="554.0"/>
+            </graphics>
+            <name>
+                <value>T2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="结束夜考">
+            <graphics>
+                <position x="831.0" y="665.0"/>
+            </graphics>
+            <name>
+                <value>T5</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="夜考抽签">
+            <graphics>
+                <position x="564.0" y="559.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="倒桩考核未通过">
+            <graphics>
+                <position x="363.0" y="299.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三5次未通过">
+            <graphics>
+                <position x="382.0" y="1465.0"/>
+            </graphics>
+            <name>
+                <value>T4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="结束科目三考核3">
+            <graphics>
+                <position x="788.0" y="1034.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="结束科目三考核4">
+            <graphics>
+                <position x="786.0" y="1227.0"/>
+            </graphics>
+            <name>
+                <value>T3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="结束科目三考核2">
+            <graphics>
+                <position x="840.0" y="877.0"/>
+            </graphics>
+            <name>
+                <value>T4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始科目三考核4">
+            <graphics>
+                <position x="619.0" y="1173.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始科目三考核5">
+            <graphics>
+                <position x="609.0" y="1353.0"/>
+            </graphics>
+            <name>
+                <value>T5</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="倒桩训练">
+            <graphics>
+                <position x="200.0" y="241.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始科目三考核2">
+            <graphics>
+                <position x="611.0" y="830.0"/>
+            </graphics>
+            <name>
+                <value>T8</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始科目三考核3">
+            <graphics>
+                <position x="615.0" y="992.0"/>
+            </graphics>
+            <name>
+                <value>T4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="开始夜考">
+            <graphics>
+                <position x="944.0" y="557.0"/>
+            </graphics>
+            <name>
+                <value>T6</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三考核通过5">
+            <graphics>
+                <position x="435.0" y="1423.0"/>
+            </graphics>
+            <name>
+                <value>T6</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目二授课结束">
+            <graphics>
+                <position x="366.0" y="407.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三考核通过4">
+            <graphics>
+                <position x="455.0" y="1241.0"/>
+            </graphics>
+            <name>
+                <value>T5</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目二考核未通过">
+            <graphics>
+                <position x="363.0" y="467.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三考核通过3">
+            <graphics>
+                <position x="457.0" y="1057.0"/>
+            </graphics>
+            <name>
+                <value>T2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="科目三考核通过2">
+            <graphics>
+                <position x="441.0" y="889.0"/>
+            </graphics>
+            <name>
+                <value>T5</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <arc id="结束科目二考核 TO 无监考考官" source="结束科目二考核" target="无监考考官">
+            <arcpath id="" x="702.0" y="508.0" curvePoint="false"/>
+            <arcpath id="" x="1074.0" y="595.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核未通过 TO 等待科目三训练2" source="科目三考核未通过" target="等待科目三训练2">
+            <arcpath id="" x="424.0" y="763.0" curvePoint="false"/>
+            <arcpath id="" x="268.0" y="760.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="开始科目三训练5 TO P4" source="开始科目三训练5" target="科目三训练5">
+            <arcpath id="" x="127.0" y="1319.0" curvePoint="false"/>
+            <arcpath id="" x="231.0" y="1347.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二授课结束 TO 科目二训练结束" source="科目二授课结束" target="科目二训练结束">
+            <arcpath id="" x="376.0" y="422.0" curvePoint="false"/>
+            <arcpath id="" x="455.0" y="420.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二考核通过 TO 等待科目三训练" source="科目二考核通过" target="等待科目三训练">
+            <arcpath id="" x="405.0" y="515.0" curvePoint="false"/>
+            <arcpath id="" x="273.0" y="563.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T0 TO P4" source="科目三考核未通过4" target="等待科目三训练中5">
+            <arcpath id="" x="448.0" y="1304.0" curvePoint="false"/>
+            <arcpath id="" x="228.0" y="1255.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩训练 TO 倒桩训练中" source="倒桩训练" target="倒桩训练中">
+            <arcpath id="" x="210.0" y="256.0" curvePoint="false"/>
+            <arcpath id="" x="276.0" y="255.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="结束夜考 TO 无监考考官" source="结束夜考" target="无监考考官">
+            <arcpath id="" x="841.0" y="680.0" curvePoint="false"/>
+            <arcpath id="" x="1075.0" y="603.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T0 TO P2" source="科目三授课结束3" target="科目三训练结束3">
+            <arcpath id="" x="367.0" y="1022.0" curvePoint="false"/>
+            <arcpath id="" x="483.0" y="1022.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二考核未通过 TO 等待科目二训练" source="科目二考核未通过" target="等待科目二训练">
+            <arcpath id="" x="363.0" y="482.0" curvePoint="false"/>
+            <arcpath id="" x="219.0" y="341.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T7 TO P0" source="科目三授课结束2" target="科目三训练结束2">
+            <arcpath id="" x="391.0" y="839.0" curvePoint="false"/>
+            <arcpath id="" x="489.0" y="847.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核未通过2 TO 科三挂科计数2" source="科目三考核未通过2" target="科三挂科计数2">
+            <arcpath id="" x="455.0" y="956.0" curvePoint="false"/>
+            <arcpath id="" x="524.0" y="979.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="抽中夜考 TO 等待夜考" source="抽中夜考" target="等待夜考">
+            <arcpath id="" x="691.0" y="569.0" curvePoint="false"/>
+            <arcpath id="" x="740.0" y="574.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="领取学习证明和部分学费 TO 结束" source="领取学习证明和部分学费" target="结束">
+            <arcpath id="" x="99.0" y="1399.0" curvePoint="false"/>
+            <arcpath id="" x="22.0" y="1110.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三训练 TO 科目三训练中" source="科目三训练" target="科目三训练中">
+            <arcpath id="" x="171.0" y="629.0" curvePoint="false"/>
+            <arcpath id="" x="280.0" y="613.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩授课结束 TO 空闲教练" source="倒桩授课结束" target="空闲教练">
+            <arcpath id="" x="381.0" y="256.0" curvePoint="false"/>
+            <arcpath id="" x="39.0" y="598.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T1 TO 无监考考官" source="结束科目三考核3" target="无监考考官">
+            <arcpath id="" x="793.0" y="1034.0" curvePoint="false"/>
+            <arcpath id="" x="1081.0" y="611.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="选择考核项目 TO 等待科目二考核" source="选择考核项目" target="等待科目二考核">
+            <arcpath id="" x="555.0" y="425.0" curvePoint="false"/>
+            <arcpath id="" x="626.0" y="423.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="开始夜考 TO 夜考中" source="开始夜考" target="夜考中">
+            <arcpath id="" x="949.0" y="587.0" curvePoint="false"/>
+            <arcpath id="" x="958.0" y="668.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T0 TO 空闲教练" source="科目三授课结束3" target="空闲教练">
+            <arcpath id="" x="362.0" y="1007.0" curvePoint="false"/>
+            <arcpath id="" x="38.0" y="620.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="结束倒桩考核 TO 无监考考官" source="结束倒桩考核" target="无监考考官">
+            <arcpath id="" x="601.0" y="358.0" curvePoint="false"/>
+            <arcpath id="" x="1076.0" y="591.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="开始科目二考核 TO 科目二考核中" source="开始科目二考核" target="科目二考核中">
+            <arcpath id="" x="733.0" y="414.0" curvePoint="false"/>
+            <arcpath id="" x="695.0" y="448.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T2 TO 领取驾照" source="科目三考核通过3" target="领取驾照">
+            <arcpath id="" x="462.0" y="1057.0" curvePoint="false"/>
+            <arcpath id="" x="333.0" y="708.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T2 TO 空闲教练" source="科目三授课结束4" target="空闲教练">
+            <arcpath id="" x="350.0" y="1177.0" curvePoint="false"/>
+            <arcpath id="" x="35.0" y="622.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二授课结束 TO 空闲教练" source="科目二授课结束" target="空闲教练">
+            <arcpath id="" x="366.0" y="422.0" curvePoint="false"/>
+            <arcpath id="" x="41.0" y="602.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三授课结束 TO 空闲教练" source="科目三授课结束" target="空闲教练">
+            <arcpath id="" x="412.0" y="620.0" curvePoint="false"/>
+            <arcpath id="" x="43.0" y="609.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核通过2 TO 领取驾照" source="科目三考核通过2" target="领取驾照">
+            <arcpath id="" x="446.0" y="889.0" curvePoint="false"/>
+            <arcpath id="" x="335.0" y="707.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="结束日考 TO 无监考考官" source="结束日考" target="无监考考官">
+            <arcpath id="" x="763.0" y="741.0" curvePoint="false"/>
+            <arcpath id="" x="1075.0" y="604.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩授课结束 TO 倒桩训练结束" source="倒桩授课结束" target="倒桩训练结束">
+            <arcpath id="" x="391.0" y="256.0" curvePoint="false"/>
+            <arcpath id="" x="479.0" y="255.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="结束驾校学习 TO 通过" source="结束驾校学习" target="通过">
+            <arcpath id="" x="181.0" y="703.0" curvePoint="false"/>
+            <arcpath id="" x="116.0" y="691.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩考核通过 TO 等待科目二训练" source="倒桩考核通过" target="等待科目二训练">
+            <arcpath id="" x="361.0" y="368.0" curvePoint="false"/>
+            <arcpath id="" x="223.0" y="334.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T9 TO P1" source="科目三训练2" target="科目三训练中2">
+            <arcpath id="" x="152.0" y="857.0" curvePoint="false"/>
+            <arcpath id="" x="253.0" y="853.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一考核通过 TO 等待倒桩训练" source="科目一考核通过" target="等待倒桩训练">
+            <arcpath id="" x="361.0" y="187.0" curvePoint="false"/>
+            <arcpath id="" x="220.0" y="185.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="结束驾校学习 TO 结束" source="结束驾校学习" target="结束">
+            <arcpath id="" x="186.0" y="718.0" curvePoint="false"/>
+            <arcpath id="" x="24.0" y="1081.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="开始倒桩考核 TO 倒桩考核中" source="开始倒桩考核" target="倒桩考核中">
+            <arcpath id="" x="624.0" y="271.0" curvePoint="false"/>
+            <arcpath id="" x="658.0" y="299.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T3 TO 无监考考官" source="结束科目三考核4" target="无监考考官">
+            <arcpath id="" x="791.0" y="1227.0" curvePoint="false"/>
+            <arcpath id="" x="1083.0" y="612.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩考核未通过 TO 等待倒桩训练" source="倒桩考核未通过" target="等待倒桩训练">
+            <arcpath id="" x="363.0" y="314.0" curvePoint="false"/>
+            <arcpath id="" x="217.0" y="194.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T6 TO P0" source="科目三考核未通过3" target="等待科目三训练4">
+            <arcpath id="" x="465.0" y="1139.0" curvePoint="false"/>
+            <arcpath id="" x="263.0" y="1112.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="结束夜考 TO 科目三考核结束" source="结束夜考" target="科目三考核结束">
+            <arcpath id="" x="831.0" y="680.0" curvePoint="false"/>
+            <arcpath id="" x="605.0" y="733.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核未通过4 TO 科三挂科计数4" source="科目三考核未通过4" target="科三挂科计数4">
+            <arcpath id="" x="458.0" y="1304.0" curvePoint="false"/>
+            <arcpath id="" x="564.0" y="1315.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T3 TO P3" source="开始科目三训练3" target="科目三训练中3">
+            <arcpath id="" x="134.0" y="1003.0" curvePoint="false"/>
+            <arcpath id="" x="253.0" y="1009.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="结束科目二考核 TO 科目二考核结束" source="结束科目二考核" target="科目二考核结束">
+            <arcpath id="" x="692.0" y="508.0" curvePoint="false"/>
+            <arcpath id="" x="550.0" y="508.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T3 TO P0" source="结束科目三考核4" target="科目三考核结束4">
+            <arcpath id="" x="786.0" y="1242.0" curvePoint="false"/>
+            <arcpath id="" x="654.0" y="1256.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="结束倒桩考核 TO 倒桩考核结束" source="结束倒桩考核" target="倒桩考核结束">
+            <arcpath id="" x="591.0" y="358.0" curvePoint="false"/>
+            <arcpath id="" x="493.0" y="360.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="领取学习证明和部分学费 TO P1" source="领取学习证明和部分学费" target="未通过">
+            <arcpath id="" x="99.0" y="1429.0" curvePoint="false"/>
+            <arcpath id="" x="89.0" y="1466.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核结束2 TO 无监考考官" source="结束科目三考核2" target="无监考考官">
+            <arcpath id="" x="845.0" y="877.0" curvePoint="false"/>
+            <arcpath id="" x="1079.0" y="610.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核未通过3 TO 科三挂科计数3" source="科目三考核未通过3" target="科三挂科计数3">
+            <arcpath id="" x="475.0" y="1139.0" curvePoint="false"/>
+            <arcpath id="" x="559.0" y="1149.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三授课结束 TO 科目三训练结束 " source="科目三授课结束" target="科目三训练结束 ">
+            <arcpath id="" x="422.0" y="620.0" curvePoint="false"/>
+            <arcpath id="" x="497.0" y="618.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T5 TO P2" source="开始科目三考核5" target="科目三考核中5">
+            <arcpath id="" x="619.0" y="1368.0" curvePoint="false"/>
+            <arcpath id="" x="712.0" y="1323.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一学习 TO 科目一学习中" source="科目一学习" target="科目一学习中">
+            <arcpath id="" x="370.0" y="78.0" curvePoint="false"/>
+            <arcpath id="" x="445.0" y="80.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="抽中日考 TO 等待日考" source="抽中日考" target="等待日考">
+            <arcpath id="" x="685.0" y="639.0" curvePoint="false"/>
+            <arcpath id="" x="735.0" y="635.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T2 TO 无监考考官" source="结束科目三考核5" target="无监考考官">
+            <arcpath id="" x="774.0" y="1366.0" curvePoint="false"/>
+            <arcpath id="" x="1083.0" y="612.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="结束日考 TO 科目三考核结束" source="结束日考" target="科目三考核结束">
+            <arcpath id="" x="753.0" y="741.0" curvePoint="false"/>
+            <arcpath id="" x="605.0" y="736.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩考核未通过 TO 倒桩挂科计数" source="倒桩考核未通过" target="倒桩挂科计数">
+            <arcpath id="" x="373.0" y="314.0" curvePoint="false"/>
+            <arcpath id="" x="486.0" y="302.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="开始日考 TO 日考中" source="开始日考" target="日考中">
+            <arcpath id="" x="900.0" y="646.0" curvePoint="false"/>
+            <arcpath id="" x="916.0" y="730.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T5 TO 领取驾照" source="科目三考核通过4" target="领取驾照">
+            <arcpath id="" x="460.0" y="1241.0" curvePoint="false"/>
+            <arcpath id="" x="331.0" y="709.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核未通过 TO 科三挂科计数1" source="科目三考核未通过" target="科三挂科计数1">
+            <arcpath id="" x="434.0" y="763.0" curvePoint="false"/>
+            <arcpath id="" x="522.0" y="798.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T2 TO P0" source="结束科目三考核5" target="科目三考核结束5">
+            <arcpath id="" x="769.0" y="1381.0" curvePoint="false"/>
+            <arcpath id="" x="642.0" y="1443.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三5次未通过 TO 多次未通过，强制退学" source="科目三5次未通过" target="多次未通过，强制退学">
+            <arcpath id="" x="382.0" y="1480.0" curvePoint="false"/>
+            <arcpath id="" x="265.0" y="1455.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T2 TO P3" source="科目三授课结束4" target="科目三训练结束4">
+            <arcpath id="" x="355.0" y="1192.0" curvePoint="false"/>
+            <arcpath id="" x="479.0" y="1197.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核通过 TO 领取驾照" source="科目三考核通过" target="领取驾照">
+            <arcpath id="" x="420.0" y="696.0" curvePoint="false"/>
+            <arcpath id="" x="343.0" y="694.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二考核未通过 TO 科二挂科计数" source="科目二考核未通过" target="科二挂科计数">
+            <arcpath id="" x="363.0" y="482.0" curvePoint="false"/>
+            <arcpath id="" x="241.0" y="488.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二训练 TO 科目二训练中" source="科目二训练" target="科目二训练中">
+            <arcpath id="" x="159.0" y="443.0" curvePoint="false"/>
+            <arcpath id="" x="256.0" y="440.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核未通过2 TO P0" source="科目三考核未通过2" target="等待科目三训练3">
+            <arcpath id="" x="445.0" y="956.0" curvePoint="false"/>
+            <arcpath id="" x="249.0" y="946.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一考核 TO 科目一考核结束" source="科目一考核" target="科目一考核结束">
+            <arcpath id="" x="663.0" y="163.0" curvePoint="false"/>
+            <arcpath id="" x="528.0" y="160.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T4 TO P2" source="开始科目三训练4" target="科目三训练中4">
+            <arcpath id="" x="137.0" y="1135.0" curvePoint="false"/>
+            <arcpath id="" x="253.0" y="1177.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一授课结束 TO 科目一学习结束" source="科目一授课结束" target="科目一学习结束">
+            <arcpath id="" x="576.0" y="84.0" curvePoint="false"/>
+            <arcpath id="" x="653.0" y="83.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T4 TO P1" source="开始科目三考核3" target="科目三考核中3">
+            <arcpath id="" x="625.0" y="1007.0" curvePoint="false"/>
+            <arcpath id="" x="722.0" y="995.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="报名注册收费 TO 注册学员" source="报名注册收费" target="注册学员">
+            <arcpath id="" x="179.0" y="77.0" curvePoint="false"/>
+            <arcpath id="" x="258.0" y="78.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T1 TO 空闲教练" source="科目三授课结束5" target="空闲教练">
+            <arcpath id="" x="335.0" y="1344.0" curvePoint="false"/>
+            <arcpath id="" x="34.0" y="623.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一考核未通过 TO 科一挂科计数" source="科目一考核未通过" target="科一挂科计数">
+            <arcpath id="" x="360.0" y="135.0" curvePoint="false"/>
+            <arcpath id="" x="268.0" y="132.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T4 TO P4" source="结束科目三考核2" target="科目三考核结束2">
+            <arcpath id="" x="840.0" y="892.0" curvePoint="false"/>
+            <arcpath id="" x="632.0" y="917.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T6 TO 领取驾照" source="科目三考核通过5" target="领取驾照">
+            <arcpath id="" x="440.0" y="1423.0" curvePoint="false"/>
+            <arcpath id="" x="330.0" y="709.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T1 TO P1" source="开始科目三考核4" target="科目三考核中4">
+            <arcpath id="" x="629.0" y="1188.0" curvePoint="false"/>
+            <arcpath id="" x="728.0" y="1176.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一考核未通过 TO 注册学员" source="科目一考核未通过" target="注册学员">
+            <arcpath id="" x="360.0" y="135.0" curvePoint="false"/>
+            <arcpath id="" x="286.0" y="86.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T8 TO P3" source="开始科目三考核2" target="科目三考核中2">
+            <arcpath id="" x="621.0" y="845.0" curvePoint="false"/>
+            <arcpath id="" x="744.0" y="820.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="夜考抽签 TO 抽签结束" source="夜考抽签" target="抽签结束">
+            <arcpath id="" x="574.0" y="574.0" curvePoint="false"/>
+            <arcpath id="" x="604.0" y="605.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T1 TO P4" source="结束科目三考核3" target="科目三考核结束3">
+            <arcpath id="" x="788.0" y="1049.0" curvePoint="false"/>
+            <arcpath id="" x="641.0" y="1090.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T7 TO 空闲教练" source="科目三授课结束2" target="空闲教练">
+            <arcpath id="" x="381.0" y="839.0" curvePoint="false"/>
+            <arcpath id="" x="41.0" y="617.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T1 TO P3" source="科目三授课结束5" target="科目三训练结束5">
+            <arcpath id="" x="340.0" y="1359.0" curvePoint="false"/>
+            <arcpath id="" x="458.0" y="1375.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="空闲教练 TO 科目三训练" source="空闲教练" target="科目三训练">
+            <arcpath id="" x="43.0" y="611.0" curvePoint="false"/>
+            <arcpath id="" x="161.0" y="629.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P0 TO T8" source="科目三训练结束2" target="开始科目三考核2">
+            <arcpath id="" x="519.0" y="848.0" curvePoint="false"/>
+            <arcpath id="" x="611.0" y="845.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩训练结束 TO 开始倒桩考核" source="倒桩训练结束" target="开始倒桩考核">
+            <arcpath id="" x="509.0" y="255.0" curvePoint="false"/>
+            <arcpath id="" x="619.0" y="256.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二考核结束 TO 科目二考核未通过" source="科目二考核结束" target="科目二考核未通过">
+            <arcpath id="" x="520.0" y="506.0" curvePoint="false"/>
+            <arcpath id="" x="373.0" y="482.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="等待科目二考核 TO 开始科目二考核" source="等待科目二考核" target="开始科目二考核">
+            <arcpath id="" x="656.0" y="419.0" curvePoint="false"/>
+            <arcpath id="" x="728.0" y="399.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一考核结束 TO 科目一考核通过" source="科目一考核结束" target="科目一考核通过">
+            <arcpath id="" x="498.0" y="163.0" curvePoint="false"/>
+            <arcpath id="" x="371.0" y="187.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P0 TO T0" source="科目三考核结束4" target="科目三考核未通过4">
+            <arcpath id="" x="624.0" y="1261.0" curvePoint="false"/>
+            <arcpath id="" x="458.0" y="1304.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩考核结束 TO 倒桩考核未通过" source="倒桩考核结束" target="倒桩考核未通过">
+            <arcpath id="" x="464.0" y="354.0" curvePoint="false"/>
+            <arcpath id="" x="373.0" y="314.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="无监考考官 TO 开始科目二考核" source="无监考考官" target="开始科目二考核">
+            <arcpath id="" x="1076.0" y="591.0" curvePoint="false"/>
+            <arcpath id="" x="738.0" y="399.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P0 TO T4" source="科目三考核结束5" target="科目三5次未通过">
+            <arcpath id="" x="613.0" y="1451.0" curvePoint="false"/>
+            <arcpath id="" x="392.0" y="1480.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P0 TO T5" source="科目三考核结束4" target="科目三考核通过4">
+            <arcpath id="" x="624.0" y="1257.0" curvePoint="false"/>
+            <arcpath id="" x="465.0" y="1256.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="无监考考官 TO 开始日考" source="无监考考官" target="开始日考">
+            <arcpath id="" x="1074.0" y="601.0" curvePoint="false"/>
+            <arcpath id="" x="905.0" y="631.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P0 TO T6" source="科目三考核结束5" target="科目三考核通过5">
+            <arcpath id="" x="613.0" y="1448.0" curvePoint="false"/>
+            <arcpath id="" x="445.0" y="1438.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二训练中 TO 科目二授课结束" source="科目二训练中" target="科目二授课结束">
+            <arcpath id="" x="286.0" y="437.0" curvePoint="false"/>
+            <arcpath id="" x="366.0" y="422.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二考核结束 TO 科目二考核通过" source="科目二考核结束" target="科目二考核通过">
+            <arcpath id="" x="520.0" y="509.0" curvePoint="false"/>
+            <arcpath id="" x="415.0" y="515.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="等待倒桩训练 TO 倒桩训练" source="等待倒桩训练" target="倒桩训练">
+            <arcpath id="" x="205.0" y="200.0" curvePoint="false"/>
+            <arcpath id="" x="205.0" y="241.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="无监考考官 TO 开始科目三考核2" source="无监考考官" target="开始科目三考核2">
+            <arcpath id="" x="1076.0" y="605.0" curvePoint="false"/>
+            <arcpath id="" x="621.0" y="845.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一学习结束 TO 科目一考核" source="科目一学习结束" target="科目一考核">
+            <arcpath id="" x="668.0" y="98.0" curvePoint="false"/>
+            <arcpath id="" x="668.0" y="148.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="等待夜考 TO 开始夜考" source="等待夜考" target="开始夜考">
+            <arcpath id="" x="770.0" y="575.0" curvePoint="false"/>
+            <arcpath id="" x="944.0" y="572.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核中4 TO T3" source="科目三考核中4" target="结束科目三考核4">
+            <arcpath id="" x="752.0" y="1186.0" curvePoint="false"/>
+            <arcpath id="" x="791.0" y="1227.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核结束2 TO 科目三考核未通过2" source="科目三考核结束2" target="科目三考核未通过2">
+            <arcpath id="" x="602.0" y="922.0" curvePoint="false"/>
+            <arcpath id="" x="455.0" y="956.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="无监考考官 TO 开始夜考" source="无监考考官" target="开始夜考">
+            <arcpath id="" x="1074.0" y="595.0" curvePoint="false"/>
+            <arcpath id="" x="954.0" y="572.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩考核结束 TO 倒桩考核通过" source="倒桩考核结束" target="倒桩考核通过">
+            <arcpath id="" x="463.0" y="361.0" curvePoint="false"/>
+            <arcpath id="" x="371.0" y="368.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩训练中 TO 倒桩授课结束" source="倒桩训练中" target="倒桩授课结束">
+            <arcpath id="" x="306.0" y="255.0" curvePoint="false"/>
+            <arcpath id="" x="381.0" y="256.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="等待科目三训练4 TO T4" source="等待科目三训练4" target="开始科目三训练4">
+            <arcpath id="" x="233.0" y="1113.0" curvePoint="false"/>
+            <arcpath id="" x="137.0" y="1135.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="无监考考官 TO 开始倒桩考核" source="无监考考官" target="开始倒桩考核">
+            <arcpath id="" x="1077.0" y="589.0" curvePoint="false"/>
+            <arcpath id="" x="629.0" y="256.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="领取驾照 TO 结束驾校学习" source="领取驾照" target="结束驾校学习">
+            <arcpath id="" x="313.0" y="695.0" curvePoint="false"/>
+            <arcpath id="" x="191.0" y="703.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P3 TO T5" source="科目三训练结束5" target="开始科目三考核5">
+            <arcpath id="" x="488.0" y="1376.0" curvePoint="false"/>
+            <arcpath id="" x="609.0" y="1368.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="夜考中 TO 结束夜考" source="夜考中" target="结束夜考">
+            <arcpath id="" x="944.0" y="683.0" curvePoint="false"/>
+            <arcpath id="" x="841.0" y="680.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="等待科目二训练 TO 科目二训练" source="等待科目二训练" target="科目二训练">
+            <arcpath id="" x="201.0" y="345.0" curvePoint="false"/>
+            <arcpath id="" x="154.0" y="428.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P6 TO T9" source="等待科目三训练2" target="科目三训练2">
+            <arcpath id="" x="242.0" y="770.0" curvePoint="false"/>
+            <arcpath id="" x="152.0" y="857.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P3 TO T1" source="科目三训练结束4" target="开始科目三考核4">
+            <arcpath id="" x="509.0" y="1197.0" curvePoint="false"/>
+            <arcpath id="" x="619.0" y="1188.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="倒桩考核中 TO 结束倒桩考核" source="倒桩考核中" target="结束倒桩考核">
+            <arcpath id="" x="654.0" y="319.0" curvePoint="false"/>
+            <arcpath id="" x="601.0" y="358.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P3 TO T0" source="科目三训练中3" target="科目三授课结束3">
+            <arcpath id="" x="283.0" y="1012.0" curvePoint="false"/>
+            <arcpath id="" x="357.0" y="1022.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="空闲教练 TO 科目二训练" source="空闲教练" target="科目二训练">
+            <arcpath id="" x="38.0" y="597.0" curvePoint="false"/>
+            <arcpath id="" x="154.0" y="458.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="抽签结束 TO 抽中日考" source="抽签结束" target="抽中日考">
+            <arcpath id="" x="629.0" y="620.0" curvePoint="false"/>
+            <arcpath id="" x="675.0" y="639.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一考核结束 TO 科目一考核未通过" source="科目一考核结束" target="科目一考核未通过">
+            <arcpath id="" x="498.0" y="158.0" curvePoint="false"/>
+            <arcpath id="" x="370.0" y="135.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核结束 TO 科目三考核通过" source="科目三考核结束" target="科目三考核通过">
+            <arcpath id="" x="575.0" y="732.0" curvePoint="false"/>
+            <arcpath id="" x="430.0" y="696.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="等待科目三训练3 TO T3" source="等待科目三训练3" target="开始科目三训练3">
+            <arcpath id="" x="221.0" y="952.0" curvePoint="false"/>
+            <arcpath id="" x="134.0" y="1003.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P2 TO T2" source="科目三训练中4" target="科目三授课结束4">
+            <arcpath id="" x="282.0" y="1184.0" curvePoint="false"/>
+            <arcpath id="" x="345.0" y="1192.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三训练结束  TO 夜考抽签" source="科目三训练结束 " target="夜考抽签">
+            <arcpath id="" x="524.0" y="609.0" curvePoint="false"/>
+            <arcpath id="" x="564.0" y="574.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="无监考考官 TO T5" source="无监考考官" target="开始科目三考核5">
+            <arcpath id="" x="1081.0" y="611.0" curvePoint="false"/>
+            <arcpath id="" x="614.0" y="1353.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P2 TO T4" source="科目三训练结束3" target="开始科目三考核3">
+            <arcpath id="" x="513.0" y="1020.0" curvePoint="false"/>
+            <arcpath id="" x="615.0" y="1007.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="无监考考官 TO T4" source="无监考考官" target="开始科目三考核3">
+            <arcpath id="" x="1078.0" y="608.0" curvePoint="false"/>
+            <arcpath id="" x="625.0" y="1007.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="空闲教练 TO 倒桩训练" source="空闲教练" target="倒桩训练">
+            <arcpath id="" x="35.0" y="596.0" curvePoint="false"/>
+            <arcpath id="" x="205.0" y="271.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="空闲教练 TO T9" source="空闲教练" target="科目三训练2">
+            <arcpath id="" x="35.0" y="622.0" curvePoint="false"/>
+            <arcpath id="" x="147.0" y="842.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="无监考考官 TO T1" source="无监考考官" target="开始科目三考核4">
+            <arcpath id="" x="1080.0" y="610.0" curvePoint="false"/>
+            <arcpath id="" x="624.0" y="1173.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="空闲教练 TO T0" source="空闲教练" target="开始科目三训练5">
+            <arcpath id="" x="30.0" y="624.0" curvePoint="false"/>
+            <arcpath id="" x="122.0" y="1304.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="空闲教练 TO T3" source="空闲教练" target="开始科目三训练3">
+            <arcpath id="" x="32.0" y="623.0" curvePoint="false"/>
+            <arcpath id="" x="129.0" y="988.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目一学习中 TO 科目一授课结束" source="科目一学习中" target="科目一授课结束">
+            <arcpath id="" x="475.0" y="81.0" curvePoint="false"/>
+            <arcpath id="" x="566.0" y="84.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="空闲教练 TO T4" source="空闲教练" target="开始科目三训练4">
+            <arcpath id="" x="31.0" y="624.0" curvePoint="false"/>
+            <arcpath id="" x="132.0" y="1120.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="等待科目三训练中5 TO 开始科目三训练5" source="等待科目三训练中5" target="开始科目三训练5">
+            <arcpath id="" x="201.0" y="1261.0" curvePoint="false"/>
+            <arcpath id="" x="127.0" y="1319.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="日考中 TO 结束日考" source="日考中" target="结束日考">
+            <arcpath id="" x="903.0" y="745.0" curvePoint="false"/>
+            <arcpath id="" x="763.0" y="741.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P4 TO T2" source="科目三考核结束3" target="科目三考核通过3">
+            <arcpath id="" x="612.0" y="1092.0" curvePoint="false"/>
+            <arcpath id="" x="467.0" y="1072.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P1 TO T7" source="科目三训练中2" target="科目三授课结束2">
+            <arcpath id="" x="283.0" y="851.0" curvePoint="false"/>
+            <arcpath id="" x="381.0" y="839.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P4 TO T1" source="科目三训练5" target="科目三授课结束5">
+            <arcpath id="" x="261.0" y="1352.0" curvePoint="false"/>
+            <arcpath id="" x="330.0" y="1359.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核中5 TO 结束科目三考核5" source="科目三考核中5" target="结束科目三考核5">
+            <arcpath id="" x="735.0" y="1329.0" curvePoint="false"/>
+            <arcpath id="" x="774.0" y="1366.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三训练中 TO 科目三授课结束" source="科目三训练中" target="科目三授课结束">
+            <arcpath id="" x="310.0" y="612.0" curvePoint="false"/>
+            <arcpath id="" x="412.0" y="620.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核中2 TO T4" source="科目三考核中2" target="结束科目三考核2">
+            <arcpath id="" x="770.0" y="827.0" curvePoint="false"/>
+            <arcpath id="" x="840.0" y="892.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P4 TO T6" source="科目三考核结束3" target="科目三考核未通过3">
+            <arcpath id="" x="613.0" y="1098.0" curvePoint="false"/>
+            <arcpath id="" x="475.0" y="1139.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二训练结束 TO 选择考核项目" source="科目二训练结束" target="选择考核项目">
+            <arcpath id="" x="485.0" y="421.0" curvePoint="false"/>
+            <arcpath id="" x="545.0" y="425.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="抽签结束 TO 抽中夜考" source="抽签结束" target="抽中夜考">
+            <arcpath id="" x="628.0" y="607.0" curvePoint="false"/>
+            <arcpath id="" x="681.0" y="569.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P4 TO T5" source="科目三考核结束2" target="科目三考核通过2">
+            <arcpath id="" x="602.0" y="918.0" curvePoint="false"/>
+            <arcpath id="" x="451.0" y="904.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P1 TO T1" source="科目三考核中3" target="结束科目三考核3">
+            <arcpath id="" x="748.0" y="1004.0" curvePoint="false"/>
+            <arcpath id="" x="793.0" y="1034.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="注册学员 TO 科目一学习" source="注册学员" target="科目一学习">
+            <arcpath id="" x="288.0" y="78.0" curvePoint="false"/>
+            <arcpath id="" x="360.0" y="78.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="等待科目三训练 TO 科目三训练" source="等待科目三训练" target="科目三训练">
+            <arcpath id="" x="246.0" y="576.0" curvePoint="false"/>
+            <arcpath id="" x="171.0" y="629.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="等待日考 TO 开始日考" source="等待日考" target="开始日考">
+            <arcpath id="" x="765.0" y="634.0" curvePoint="false"/>
+            <arcpath id="" x="895.0" y="631.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目三考核结束 TO 科目三考核未通过" source="科目三考核结束" target="科目三考核未通过">
+            <arcpath id="" x="575.0" y="738.0" curvePoint="false"/>
+            <arcpath id="" x="434.0" y="763.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="多次未通过，强制退学 TO 领取学习证明和部分学费" source="多次未通过，强制退学" target="领取学习证明和部分学费">
+            <arcpath id="" x="235.0" y="1448.0" curvePoint="false"/>
+            <arcpath id="" x="104.0" y="1414.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="科目二考核中 TO 结束科目二考核" source="科目二考核中" target="结束科目二考核">
+            <arcpath id="" x="689.0" y="475.0" curvePoint="false"/>
+            <arcpath id="" x="697.0" y="493.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="未注册学员 TO 报名注册收费" source="未注册学员" target="报名注册收费">
+            <arcpath id="" x="90.0" y="75.0" curvePoint="false"/>
+            <arcpath id="" x="169.0" y="77.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+    </net>
+</pnml>
