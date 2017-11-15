@@ -951,7 +951,7 @@
                 <value>false</value>
             </timed>
             <priority>
-                <value>1</value>
+                <value>2</value>
             </priority>
             <orientation>
                 <value>0</value>
